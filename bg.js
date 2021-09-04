@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 const proverb = document.querySelector(".proverb");
 
-const IMG_NUMBER = 8;
+const IMG_NUMBER = 7;
 
 const PRO_ARR = [{
     quotation:
@@ -37,11 +37,6 @@ const PRO_ARR = [{
       quotation:
       "The only person who can really motivate you is you.",
       author: "- Shaquille O'Neal -"
-  },
-  {
-      quotation:
-      "We go Norwich.",
-      author: "- Steven Humba Humba -"
   }
 ];
 
