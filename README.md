@@ -1,11 +1,14 @@
-# slamdunk
+# Like Legend
 
-### backgrounds
-![4](https://user-images.githubusercontent.com/66259692/106362285-555df600-6365-11eb-86d9-ab0e5621315b.jpg)
-![5](https://user-images.githubusercontent.com/66259692/106362288-57c05000-6365-11eb-8644-dc0e01914c96.jpg)
-![6](https://user-images.githubusercontent.com/66259692/106362289-58f17d00-6365-11eb-88ec-05e65776cad0.jpg)
-![7](https://user-images.githubusercontent.com/66259692/106362291-5a22aa00-6365-11eb-8716-5e0550a408d2.jpg)
-![8](https://user-images.githubusercontent.com/66259692/106362294-5bec6d80-6365-11eb-9b90-b3fcde1e3493.jpg)
-![1](https://user-images.githubusercontent.com/66259692/106362295-5c850400-6365-11eb-9bd1-2ac812778b23.jpg)
-![2](https://user-images.githubusercontent.com/66259692/106362298-5db63100-6365-11eb-8255-73d7182e4dcf.jpg)
-![3](https://user-images.githubusercontent.com/66259692/106362299-5e4ec780-6365-11eb-9743-e07386068f43.jpg)
+### 1. 프로젝트 개요
+간단한 To-Do-List 웹앱입니다.<br/>
+위대한 농구선수들의 사진과 명언이 무작위로 출력되어 동기를 부여해줍니다!<br/>
+위치 정보, 현재 시간 등의 부가 기능도 구현했습니다.
+<br/>
+
+Javascript로 대부분의 기능을 구현했으며,<br/>
+HTML과 CSS로 전체적인 디자인을 잡았습니다.
+<br/>
+<br/>
+### 2. 프로젝트 링크
+https://josuncom.github.io/Like-Legend-main/
