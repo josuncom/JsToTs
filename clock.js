@@ -5,12 +5,10 @@ function getTime() {
     var minutes = date.getMinutes();
     var hours = date.getHours();
     var seconds = date.getSeconds();
-    if (clockTitle instanceof HTMLParagraphElement) {
-        clockTitle.innerText = "".concat(hours < 10 ? "0".concat(hours) : hours, " : ").concat(minutes < 10 ? "0".concat(minutes) : minutes, " : ").concat(seconds < 10 ? "0".concat(seconds) : seconds);
-    }
+    clockTitle.innerText = "".concat(hours < 10 ? "0".concat(hours) : hours, " : ").concat(minutes < 10 ? "0".concat(minutes) : minutes, " : ").concat(seconds < 10 ? "0".concat(seconds) : seconds);
 }
-function init() {
+function initClock() {
     getTime();
     setInterval(getTime, 1000);
 }
-init();
+initClock();

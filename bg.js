@@ -38,16 +38,15 @@ function paintImage(imgNumber) {
 }
 function paintProverb(imgNumber) {
     var randomProverb = PRO_ARR[imgNumber];
-    if (proverb instanceof HTMLParagraphElement)
-        proverb.innerText = "".concat(randomProverb.quotation, " \n\n").concat(randomProverb.author);
+    proverb.innerText = "".concat(randomProverb.quotation, " \n\n").concat(randomProverb.author);
 }
 function genRandom() {
     var number = Math.floor(Math.random() * IMG_NUMBER);
     return number;
 }
-function init() {
+function initBG() {
     var randomNumber = genRandom();
     paintImage(randomNumber);
     paintProverb(randomNumber);
 }
-init();
+initBG();

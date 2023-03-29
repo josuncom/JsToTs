@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const proverb = document.querySelector(".proverb");
+const proverb = document.querySelector(".proverb") as HTMLParagraphElement;
 
 const IMG_NUMBER = 7;
 
@@ -51,7 +51,8 @@ function paintImage(imgNumber: number){
 
 function paintProverb(imgNumber: number){
     const randomProverb =  PRO_ARR[imgNumber];
-    if (proverb instanceof HTMLParagraphElement) proverb.innerText = `${randomProverb.quotation} \n\n${randomProverb.author}`;
+    console.log(randomProverb);
+    proverb.innerText = `${randomProverb.quotation} \n\n${randomProverb.author}`;
 }
 
 
@@ -61,10 +62,10 @@ function genRandom(){
 }   
 
 
-function init(){
+function initBG(){
     const randomNumber = genRandom(); 
     paintImage(randomNumber);
     paintProverb(randomNumber);
 }
 
-init();
+initBG();
