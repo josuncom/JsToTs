@@ -1,8 +1,5 @@
 var toDoForm = document.querySelector(".js-toDoForm "), toDoInput = toDoForm.querySelector("input"), toDoList = document.querySelector(".js-toDoList");
 var TODOS_LS = "toDos";
-function filterFn(toDo) {
-    return toDo.id === 1;
-}
 var toDos = [];
 function deleteToDO(event) {
     var btn = event.target;
